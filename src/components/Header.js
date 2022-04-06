@@ -16,6 +16,7 @@ function Header() {
   };
   return (
     <div className="navbar">
+      <div className="container">
       <Image
       width={100}
       src={logo}
@@ -48,6 +49,8 @@ function Header() {
           </a>
         </Menu.Item>
       </Menu>
+      </div>
+    
     </div>
   )
 }

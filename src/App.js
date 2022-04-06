@@ -5,7 +5,7 @@ import Carousel from "./components/Carousel";
 
 function App() {
   return (
-    <div className="container">
+    <div >
       <About/>
       {/* <Carousel/> */}
     </div>

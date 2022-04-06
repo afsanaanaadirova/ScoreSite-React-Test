@@ -311,3 +311,32 @@ form input {
   font-size: 38px;
   color:#fff;
 }
+.ant-menu-item{
+  display: flex!important;
+  align-items: center;
+}
+.AboutItem{
+  display: flex;
+  justify-content: space-between;
+  padding: 5em 0;
+  column-gap: 40px;
+}
+.AboutItem img{
+  max-width: 100%;
+  height: auto;
+}
+.AboutItem h4{
+  color: #000 !important;
+}
+.AboutItem p{
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.AboutItemSecond .AboutItem{
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: unset;
+}
+.AboutCarousel .slider-title{
+  display: none;
+}
