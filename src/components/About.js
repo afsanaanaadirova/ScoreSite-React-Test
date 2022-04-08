@@ -1,9 +1,11 @@
 import React from 'react'
 import img3 from '../assests/images/3.webp';
 import Header from './Header';
+import Footer from './Footer';
 import AboutItem from './AboutItem';
 import styled from 'styled-components';
 import Carousel from "./Carousel";
+import Team from './Team';
 
 function About() {
   return (
@@ -16,13 +18,15 @@ function About() {
                    Ad maxime velit nostrum praesentium voluptatem. Mollitia perferendis dolore dolores.</Text>
          </AboutHeaderInfo>
          </AboutHeader>
-         <AboutItem/>
+         <Team/>
+         {/* <AboutItem/>
          <div className='AboutItemSecond'>
          <AboutItem/>
-         </div>
+         </div> */}
          <div className='AboutCarousel'>
          <Carousel/>
          </div>
+         <Footer/>
     </div>
   )
 }

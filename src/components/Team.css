@@ -1,0 +1,23 @@
+.Teams h5{
+  text-align: center;
+}
+.Team .item{
+
+}
+.Team .item .item-circle{
+    
+}
+.Team .item .item-circle img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.Team .item .item-circle span{
+    
+}
+.Team .item h5{
+
+}
+.Team .item p{
+
+}

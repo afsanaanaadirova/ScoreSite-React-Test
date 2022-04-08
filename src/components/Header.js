@@ -17,7 +17,7 @@ function Header() {
   return (
     <div className="navbar">
       <div className="container">
-      <Image
+      <Image className="image-logo"
       width={100}
       src={logo}
     />
