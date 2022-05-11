@@ -17,7 +17,7 @@ const imgStyle ={
     slidesToShow: 1,
     slidesToScroll: 1
   };
-function CarouselCom() {
+function Carousel() {
   return (
   <div>
   <Slider {...settings}>
@@ -47,4 +47,4 @@ function CarouselCom() {
   )
 }
 
-export default CarouselCom
+export default Carousel;

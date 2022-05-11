@@ -256,9 +256,7 @@ form input {
   top: -20px;
   z-index: 99;
 }
-.ant-menu-horizontal > .ant-menu-item a{
-  color:#fff!important;
-}
+
 .ant-menu{
   color:#fff!important;
 }
@@ -345,4 +343,11 @@ form input {
 }
 .text-muted h6{
   color:#fff!important;
+}
+.navbar .ant-menu-overflow.ant-menu-horizontal > .ant-menu-item a{
+  color:#fff;
+}
+
+.pagination {
+    justify-content: center;
 }

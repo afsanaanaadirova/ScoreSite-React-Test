@@ -1,0 +1,28 @@
+.News{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 50px;
+}
+.News-Item img{
+    max-width: 100%;
+    height: auto;
+}
+.News-Item--text{
+    padding: 10px;
+}
+.News-Item h3{
+    font-size: 20px;
+}
+.News-Item span{
+}
+.News-Item p{
+    padding-top: 10px;
+}
+.News-Item {
+    width: 380px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 22px;
+}

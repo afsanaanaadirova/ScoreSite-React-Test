@@ -1,8 +1,16 @@
+.Teams{
+  padding: 40px 0;
+}
 .Teams h5{
   text-align: center;
 }
+.Team{
+  display: flex;
+  text-align: center;
+  column-gap: 16px;
+}
 .Team .item{
-
+position: relative;
 }
 .Team .item .item-circle{
     
@@ -13,10 +21,17 @@
     border-radius: 50%;
 }
 .Team .item .item-circle span{
-    
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #f23a2e;
+  border-radius: 50%;
+  color: #fff;
+  left: 0;
+  padding: 5px;
 }
-.Team .item h5{
-
+.Team .item h6{
+  padding-top: 10px;
 }
 .Team .item p{
 
