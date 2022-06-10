@@ -6,6 +6,8 @@ import styled from 'styled-components';
 import Team from './Team';
 import Carousel from "./Carousel"
 import AboutHeader from './AboutHeader';
+import LastScore from './LastScore';
+import Matche from './Matche';
 
 function About() {
   return (
@@ -16,8 +18,9 @@ function About() {
          <AboutItem/>
          <div className='AboutItemSecond'>
          <AboutItem/>
+         <LastScore/>
+         <Matche/>
          </div>
-         <Footer/>
     </div>
   )
 }
